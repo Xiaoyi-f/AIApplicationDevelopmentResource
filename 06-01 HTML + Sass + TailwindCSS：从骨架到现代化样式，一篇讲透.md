@@ -313,6 +313,22 @@ Tailwind 是**原子化 CSS**：它不给你现成的「按钮」「卡片」组
 
 常用：`flex`（弹性）、`grid`（网格）、`items-center`（垂直居中）、`justify-center`（水平居中）、`justify-between`（两端对齐）、`gap-4`（间距）、`grid-cols-3`（3 列）。
 
+**补充-位置**
+
+```
+<!-- 绝对定位居中，等价你刚才 sass flex-center 那套定位方案 -->
+<div class="absolute inset-0 m-auto"></div>
+
+<!-- 相对定位 -->
+<div class="relative"></div>
+
+<!-- 固定定位 -->
+<div class="fixed top-0 left-0 w-full"></div>
+
+<!-- 粘性定位 -->
+<div class="sticky top-0"></div>
+```
+
 ### 5.2 尺寸与间距
 
 ```
